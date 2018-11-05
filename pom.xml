@@ -29,12 +29,12 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://nexusserver.com:8081/repository/mypracticerelease/</url>
+            <url>http://nexusserver.com:8081/repository/pipelinerelease/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://nexusserver.com:8081/repository/mypracticedeploy/</url>
+            <url>http://nexusserver.com:8081/repository/pipelinesnapshot/</url>
         </snapshotRepository>
     </distributionManagement>
   <dependencies>
